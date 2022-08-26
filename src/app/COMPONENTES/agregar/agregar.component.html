@@ -1,0 +1,24 @@
+<h1>AGREGAR TAREA</h1>
+
+<div class="container" style="width:100; margin:0 auto; color:white;">
+    <form action="">
+        <div style="text-align:center">
+            <label for="tarea" style="margin: 15px; font-size: 20px;" >Tarea</label>
+            <br>
+            <input type="text" id="tarea" name="tarea" [(ngModel)]="tareaNueva.tarea">
+        </div>
+
+
+<div style="text-align:center">
+    <label for="estado" style="margin: 15px; font-size: 20px; text-align: left !important;">Estado</label>
+    <br>
+    <input type="checkbox" name="estado" id="estado" [(ngModel)]="tareaNueva.finalizado"></div>
+  <br>
+<div style="text-align:center">
+    <button class="btn btn-primary" (click)="agregarTarea()" style="position: -ms-page; margin-right: 10px;">Guardar</button>
+    <button class="btn btn-primary" [routerLink]="['/inicio']" routerLinkActive="active-link">Cancelar</button>
+</div>
+
+
+    </form>
+</div>
