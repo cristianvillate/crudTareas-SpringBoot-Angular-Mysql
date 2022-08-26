@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+aplicacion de manejo de tareas hecha en backend con spring boot
+ frontend con angular y base de datos en mysql
+
+ se debe configurar estas 3 
+
+ carpeta backend  y carpeta bd 
+
+ 1 debe iniciar la coneccion a base de datos
+ 2 debe correr el backend en intellij 8080
+ 3 correr el frontend por 4200
